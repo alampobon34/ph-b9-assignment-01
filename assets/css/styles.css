@@ -20,7 +20,15 @@ body {
 
 .container {
     width: 85%;
-    margin: 0px auto;
+    margin: 50px auto;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-weight: 700;
 }
 
 /* common css ends  */
@@ -29,6 +37,7 @@ body {
 /* header css starts  */
 
 .header {
+    /* margin-top: 10px; */
     height: 500px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -60,4 +69,88 @@ body {
 .header-content-info h1 {
     font-weight: 900;
     font-size: 72px;
+}
+
+/* header css ends */
+
+
+/* category discount section starts */
+
+
+.category-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.category-content>h1 {
+    font-family: 'Inter';
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 88px;
+}
+
+.category-subtitle {
+    text-align: center;
+}
+
+.category-subtitle h4 {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.category-subtitle h3 {
+    font-size: 48px;
+}
+
+.category-content img {
+    height: 300px;
+}
+
+
+/* category discount ends here  */
+
+
+/* banner css start  */
+
+.banner {
+    height: auto;
+    background-image: linear-gradient(180deg,
+            rgba(3, 3, 3, 0.75),
+            rgba(3, 3, 3, 0.25)), url('../images/Vectorrr.png');
+    color: #fff;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.banner-content-left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner-content-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.banner-content-right {
+    width: 30%;
+}
+
+.banner-content-right img {
+    margin: 30px 0px;
+    height: 400px;
 }
