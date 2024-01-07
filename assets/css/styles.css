@@ -23,6 +23,14 @@ body {
     margin: 50px auto;
 }
 
+.btn-primary {
+    padding: 16px 32px;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 8px;
+}
+
 .btn-secondary {
     background-color: transparent;
     color: #fff;
@@ -153,4 +161,139 @@ body {
 .banner-content-right img {
     margin: 30px 0px;
     height: 400px;
+}
+
+/* banner css ends here  */
+
+
+/* resenvation css starts  */
+.reservation {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.reservation span {
+    color: var(--primary-color);
+}
+
+
+/* offer content starts  */
+
+.offer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.offer-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.offer-left h4 {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-family: 'Inter';
+    font-size: 24px;
+}
+
+.offer-left h2 {
+    font-weight: 900;
+}
+
+.offer-middle {
+    border-radius: 100%;
+    border: 12px solid var(--primary-color);
+}
+
+.offer-middle img {
+    height: 300px;
+    height: 300px;
+    border-radius: 100px;
+    padding: 24px;
+}
+
+.offer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.offer-right h4 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.offer-right img {
+    width: 140px;
+    height: 140px;
+}
+
+/* offer css ends  */
+
+.sale-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.sale-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sale-title>h1>span {
+    color: var(--primary-color);
+}
+
+.sale-image {
+    width: 100%;
+    position: relative;
+}
+
+.sale-row {
+    display: flex;
+    justify-content: end;
+}
+
+
+.sale-row-img {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    margin-left: 20px;
+}
+
+.sale-discount-img {
+    position: absolute;
+    left: 46%;
+    top: 10%;
+
+}
+
+.sale-img-bottom {
+    width: 100%;
+    border-radius: 16px 0px 16px 16px;
 }
