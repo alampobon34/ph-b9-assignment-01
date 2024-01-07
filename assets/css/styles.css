@@ -297,3 +297,39 @@ body {
     width: 100%;
     border-radius: 16px 0px 16px 16px;
 }
+
+/* sale section ends  */
+
+
+/* portfolio starts  */
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.portfolio>h4 {
+    color: var(--primary-color);
+    font-family: 'Inter';
+}
+
+.portfolio-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+
+.portfolio-img img {
+    height: 350px;
+    width: 350px;
+    border-radius: 16px;
+}
+
+.portfolio-img img:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(161, 161, 161, 0.8);
+}
+
+/* portfolio ends here  */
