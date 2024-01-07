@@ -1,3 +1,63 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+/* common css starts  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary-color: #FF0000;
+    --secondary-color: #070211;
+}
+
+body {
+    font-family: 'Merriweather';
+}
+
+.container {
+    width: 85%;
+    margin: 0px auto;
+}
+
+/* common css ends  */
+
+
+/* header css starts  */
+
+.header {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px;
+    background-position: center;
+    color: #fff;
+    /* background-image: url('../images/Banner\ Image.png'); */
+    background-image: linear-gradient(180deg,
+            rgba(3, 3, 3, 0.75),
+            rgba(3, 3, 3, 0.25)), url('../images/Banner\ Image.png');
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.header-content-info {
+    margin: 120px auto;
+}
+
+.header-content-info h3 {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.header-content-info h1 {
+    font-weight: 900;
+    font-size: 72px;
 }
