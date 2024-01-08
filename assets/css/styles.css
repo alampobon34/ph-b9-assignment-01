@@ -336,15 +336,15 @@ hr{
 .portfolio {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
 }
 
-.portfolio>h4 {
+.portfolio-title>h4 {
     color: var(--primary-color);
     font-family: 'Inter';
 }
 
-.portfolio>h2{
+.portfolio-title>h2{
     font-size: 24px;
 }
 
