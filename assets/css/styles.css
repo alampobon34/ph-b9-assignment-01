@@ -18,6 +18,10 @@ body {
     font-family: 'Merriweather';
 }
 
+h4 {
+    font-family: 'Inter';
+}
+
 .container {
     width: 85%;
     margin: 50px auto;
@@ -29,6 +33,7 @@ body {
     background-color: var(--primary-color);
     color: #fff;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -37,6 +42,7 @@ body {
     border: none;
     padding: 5px 10px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* common css ends  */
@@ -45,10 +51,9 @@ body {
 /* header css starts  */
 
 .header {
-    /* margin-top: 10px; */
-    height: 500px;
+    height: auto;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-radius: 16px;
     background-position: center;
     color: #fff;
@@ -111,6 +116,7 @@ body {
 
 .category-subtitle h3 {
     font-size: 48px;
+    font-family: 'Inter';
 }
 
 .category-content img {
@@ -174,6 +180,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 16px;
+    font-family: 'Inter';
 }
 
 .reservation-content {
@@ -182,6 +189,10 @@ body {
     gap: 48px;
     text-align: center;
     margin: 100px 0px;
+}
+
+.reservation-left {
+    font-size: 24px;
 }
 
 .reservation span {
@@ -373,6 +384,10 @@ body {
 
 }
 
+.newsletter-input input:focus {
+    outline: none;
+}
+
 .newsletter-input input {
     border: none;
     padding-left: 10px;
@@ -387,4 +402,73 @@ body {
     color: #fff;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+}
+
+
+/* news letter ends  */
+
+
+/* footer starts  */
+
+.footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-family: 'Inter';
+
+}
+
+.footer-container {
+    width: 85%;
+    margin: 0px auto;
+    padding: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid #fff; */
+}
+
+
+.footer-content>div {
+    width: 70%;
+}
+
+
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-author button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
